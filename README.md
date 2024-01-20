@@ -24,4 +24,4 @@ This project was developed by Ala GARBAA. Visit [Ala GARBAA's website](https://w
 
 > Note: For deploying your application, consider installing an [adapter](https://kit.svelte.dev/docs/adapters) suitable for your target environment.
 
-Thank you for your support! Don't forget to give a star to the [repository](https://github.com/ala-garbaa-pro/n8-nfts-svelte). ⭐️
+Thank you for your support! Don't forget to give a star to the [repository](https://github.com/ala-garbaa-pro/n8-nfts-svelte) ⭐️

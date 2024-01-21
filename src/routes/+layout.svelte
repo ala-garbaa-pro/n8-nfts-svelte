@@ -1,12 +1,16 @@
 <script>
 	import './style.scss';
+	import n8SmallSignature from '$lib/images/n8SmallSignature.png';
 
 	const currentYear = new Date().getFullYear();
 </script>
 
 <header class="main-header">
 	<nav class="navbar">
-		<a class="logo-text" href="/"><span>N8</span> NFTs Svelte</a>
+		<a class="logo-text" href="/">
+			<img alt="N8 small signature" src={n8SmallSignature} />
+			<span>NFTs</span> Svelte</a
+		>
 		<ul class="mainmenu">
 			<li><a href="/search">Search</a></li>
 			<li><a href="/favorites">Favorites</a></li>
@@ -122,6 +126,14 @@
 		text-decoration: none;
 		font-weight: 700;
 		color: var(--color-white);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
+		user-select: none;
+		
+		cursor: pointer;
+
 		span {
 			background: var(--color-primary);
 			padding: 0.5rem;

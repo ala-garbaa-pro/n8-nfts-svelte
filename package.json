@@ -19,6 +19,7 @@
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/crypto-js": "^4.2.1",
 		"@types/eslint": "8.56.0",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
@@ -37,6 +38,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/yantramanav": "^5.0.18"
+		"@fontsource/yantramanav": "^5.0.18",
+		"crypto-js": "^4.2.0",
+		"cyber-encrypt": "^1.0.0",
+		"pocketbase": "^0.20.3"
 	}
 }

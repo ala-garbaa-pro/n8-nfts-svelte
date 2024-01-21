@@ -1,6 +1,6 @@
 # N8 NFTs Svelte
 
-![N8 NFTs Svelte](https://github.com/ala-garbaa-pro/n8-nfts-svelte/assets/79337368/42780931-e112-48d9-af50-fa8fe89c6040)
+![N8 NFTs Svelte](https://github.com/ala-garbaa-pro/n8-nfts-svelte/assets/79337368/b40f44eb-23be-49a7-b15f-26f77ad2f3db)
 
 ## Development
 

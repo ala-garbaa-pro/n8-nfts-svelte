@@ -2,6 +2,8 @@
 
 ![N8 NFTs Svelte](https://github.com/ala-garbaa-pro/n8-nfts-svelte/assets/79337368/b40f44eb-23be-49a7-b15f-26f77ad2f3db)
 
+💻 Live app demo: https://n8-nfts-svelte.vercel.app
+
 ## Development
 
 To initiate development mode, run the following command:

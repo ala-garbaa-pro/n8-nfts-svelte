@@ -7,5 +7,7 @@ export const load: PageServerLoad = async ({ locals: { pba } }) => {
         sort: '-created'
     });
 
+    throw new Error("err")
+
     return { nfts };
 };

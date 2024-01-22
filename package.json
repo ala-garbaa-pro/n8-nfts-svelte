@@ -40,7 +40,6 @@
 	"dependencies": {
 		"@fontsource/yantramanav": "^5.0.18",
 		"crypto-js": "^4.2.0",
-		"cyber-encrypt": "^1.0.0",
 		"pocketbase": "^0.20.3"
 	}
 }

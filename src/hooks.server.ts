@@ -3,13 +3,14 @@ import { cookiesName } from './constants';
 import { cookiesDeprotectorFromHeader } from '$lib/cookies-protector/cookiesDeprotectorFromHeader';
 import { cookiesProtector } from '$lib/cookies-protector/cookiesProtector';
 
-import { BASE_PB_URL, ADMIN_EMAIL, ADMIN_PASSWORD } from '$env/static/private';
+import { PUBLIC_BASE_PB_URL } from '$env/static/public';
+import { ADMIN_EMAIL, ADMIN_PASSWORD } from '$env/static/private';
 
 export async function handle({ event, resolve }) {
 	// console.log(`🟩 /hooks.server.ts - handle --START->`);
 
-	event.locals.pb = new PocketBase(BASE_PB_URL);
-	event.locals.pba = new PocketBase(BASE_PB_URL);
+	event.locals.pb = new PocketBase(PUBLIC_BASE_PB_URL);
+	event.locals.pba = new PocketBase(PUBLIC_BASE_PB_URL);
 
 	// globally disable auto cancellation
 	event.locals.pb.autoCancellation(false);

@@ -11,9 +11,6 @@ dependencies:
   crypto-js:
     specifier: ^4.2.0
     version: 4.2.0
-  cyber-encrypt:
-    specifier: ^1.0.0
-    version: 1.0.0
   pocketbase:
     specifier: ^0.20.3
     version: 0.20.3
@@ -1022,12 +1019,6 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
     dev: true
-
-  /cyber-encrypt@1.0.0:
-    resolution: {integrity: sha512-ZSEkMv/hCQ8Y7zLaus1iNKmTJkXrmfbbPdYyQGEjWiVgkRyszkYO0ZXuK3DHWg2OE6Ml6PWUjBxRlk7gWrvd7w==}
-    dependencies:
-      crypto-js: 4.2.0
-    dev: false
 
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}

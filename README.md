@@ -4,6 +4,14 @@
 
 💻 Live app demo: https://n8-nfts-svelte.vercel.app
 
+## Versions
+
+v0 :
+https://www.youtube.com/watch?v=eYQs1Jijvhs
+
+N8 NFTs Svelte v1.0: QuantumCanvas Edition:
+https://www.youtube.com/watch?v=DQPhliviimY
+
 ## Development
 
 To initiate development mode, run the following command:

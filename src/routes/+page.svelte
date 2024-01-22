@@ -13,3 +13,6 @@ import NFTsWrapper from '$lib/ui/nfts/NFTsWrapper.svelte';
 		<NfTsProduct data={nft} /> 
 	{/each}
 </NFTsWrapper>
+
+
+TRIGGER:!Deployment env fixed

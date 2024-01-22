@@ -58,6 +58,14 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="version">
+			<div class="icon">
+				<i></i>
+			</div>
+			<div class="space"></div>
+			<div class="content">N8 NFTs Svelte v1.0: QuantumCanvas Edition</div>
+		</div>
 	</footer>
 </div>
 
@@ -231,6 +239,79 @@
 		.misc-links {
 			display: flex;
 			gap: 1rem;
+		}
+	}
+
+	@keyframes anim-glow {
+		0% {
+			box-shadow: 0 0 rgba(#61ef61, 1);
+		}
+		100% {
+			box-shadow: 0 0 10px 8px transparent;
+			border-width: 2px;
+		}
+	}
+
+	.version {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-block: 2rem;
+		.space {
+			width: 1rem;
+			height: 1rem;
+		}
+		.icon {
+			border-radius: 50%;
+			border: 2px solid #61ef61;
+			width: 10px;
+			height: 10px;
+			text-align: center;
+			position: relative;
+			animation: anim-glow 2s ease infinite;
+
+			i {
+				border-radius: 50%;
+				border: 2px solid #61ef61;
+				width: 2px;
+				height: 2px;
+				display: inline-block;
+				vertical-align: 6px;
+				background-color: #61ef61;
+			}
+		}
+		@keyframes neonGlow {
+			0% {
+				text-shadow:
+					0 0 1px rgba(255, 255, 255, 0.8),
+					0 0 2px rgba(255, 255, 255, 0.8),
+					0 0 4px rgba(255, 255, 255, 0.8),
+					0 0 8px rgba(66, 220, 219, 0.8),
+					0 0 16px rgba(66, 220, 219, 0.8),
+					0 0 20px rgba(66, 220, 219, 0.5),
+					0 0 24px rgba(66, 220, 219, 0.5),
+					0 0 28px rgba(66, 220, 219, 0.5),
+					0 0 32px rgba(66, 220, 219, 0.5);
+			}
+			100% {
+				text-shadow:
+					0 0 8px rgba(255, 255, 255, 0.8),
+					0 0 16px rgba(255, 255, 255, 0.8),
+					0 0 22px rgba(255, 255, 255, 0.8),
+					0 0 28px rgba(66, 220, 219, 0.8),
+					0 0 32px rgba(66, 220, 219, 0.8),
+					0 0 36px rgba(66, 220, 219, 0.8),
+					0 0 48px rgba(66, 220, 219, 0.5),
+					0 0 56px rgba(66, 220, 219, 0.5);
+			}
+		}
+
+		.content {
+			text-transform: uppercase;
+			color: white;
+			font-size: 1em;
+			text-align: center;
+			animation: neonGlow 2s infinite alternate var(--easeInOutQuad);
 		}
 	}
 </style>

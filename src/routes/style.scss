@@ -10,6 +10,8 @@
 	--transition: 0.3s;
 	--color-heading-gray-2: #7d7d7d;
 	--background-color-4: #242435;
+
+	--easeInOutQuad:cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 * {

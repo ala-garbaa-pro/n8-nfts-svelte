@@ -15,4 +15,4 @@ import NFTsWrapper from '$lib/ui/nfts/NFTsWrapper.svelte';
 </NFTsWrapper>
 
 
-TRIGGER:!Deployment env fixed
+TRIGGER:!Deployment env pwd fixed

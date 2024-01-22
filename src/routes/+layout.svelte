@@ -307,7 +307,6 @@
 		}
 
 		.content {
-			text-transform: uppercase;
 			color: white;
 			font-size: 1em;
 			text-align: center;
